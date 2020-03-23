@@ -22,7 +22,7 @@ url_walmart = 'https://www.walmart.com/search/?cat_id=0&query=%22'+myupc+'%22'
 web.get(url_walmart)
 
 title_walmart = web.find_element_by_class_name('product-title-link').text
-price_walmart = web.find_element_by_class_name('price-characteristic').text +'.'+ web.find_element_by_class_name('price-mantissa').text
+price_walmart = web.find_element_by_class_name('price').text 
 
 print(title_walmart)
 print(price_walmart)
