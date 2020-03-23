@@ -5,7 +5,7 @@ https://www.youtube.com/watch?v=rajXpxvHiV0
 
 web = webdriver.Chrome('support files/chromedriver.exe')
 
-myupc = '0857749002198'
+myupc = '65s421'
 url_homedepot = 'https://homedepot.com/s/%2522'+myupc+'%2522?NCNI-5'
 """
 web.get(url_homedepot)
